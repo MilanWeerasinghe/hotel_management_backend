@@ -29,5 +29,24 @@ The **Summer Hotel Booking System** is a microservice-based application designed
 - **Eureka Server**: Service discovery for microservices.
 - **Keycloak**: Identity and access management solution.
 
+## API Endpoints
+
+### Booking Service
+
+- `POST /api/booking/addbooking`: Create a new booking.
+- `GET /api/booking/getbooking/{id}`: Get booking details by ID.
+- `GET /api/booking/getbookings`: List all bookings.
+
+### Room Service
+
+- `POST /api/room/addroom`: Add a new room.
+- `GET /api/room/getroom/{id}`: Get room details by ID.
+- `GET /api/room/getrooms`: List all rooms.
+
+### User Service
+
+- `POST /api/user/register`: Register a new user.
+- other end points will be added later.
+
 ---
 
